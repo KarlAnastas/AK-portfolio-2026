@@ -3,6 +3,7 @@ import { Button } from "@/components/Button";
 import { ArrowRight, Linkedin, BriefcaseBusiness, ChevronDown, Download } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton.jsx";
+import profile from "/public/profile3.jpg";
 
 const skills = [
     "HCD",
@@ -30,10 +31,6 @@ export const HeroSection = () => {
         <section className="relative min-h-screen flex items-center overflow-hidden">
             {/* BG */}
             <div className="absolute inset-0">
-                {/*<img 
-                    src="/bg-pink.jpg" 
-                    alt="Hero bg" 
-                    className="w-full h-full object-cover opacity-10" />*/}
                 <div className="absolute inset-0 ng-gradient-to-b fron-background/20 via-background/80 to-background" />
             </div>
 
@@ -123,7 +120,7 @@ export const HeroSection = () => {
                             />
                             <div className="relative glass rounded-3xl p-2 glow-border">
                                 <img 
-                                    src="/profile3.jpg" 
+                                    src={profile} 
                                     alt="Anastasiia Karlova" 
                                     className="w-full aspect-4/5 object-cover rounded-2xl"
                                 />

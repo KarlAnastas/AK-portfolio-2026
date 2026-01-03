@@ -3,13 +3,16 @@ import { useTranslation } from "react-i18next";
 import { ArrowUpRight } from "lucide-react";
 import { AnimatedBorderButton} from "@/components/AnimatedBorderButton";
 import { Download } from "lucide-react";
+import behance from "/public/projects/Behance.png";
+import rakuten from "/public/projects/RS.png";
+import wca from "/public/projects/WCA.png";
+import wellna from "/public/projects/Wellna.png";
 
 const projects = [
     {
         id: 1,
         /*title: "Personal designs",
         description: "A collection of my personal or unpublished projects that show my skills when restricted by NDAs.",*/
-        image: "/projects/Behance.png",
         tags: ["UI/UX design", "User research", "App design", "HCD", "Web design", "Figma", "Sketch", "Adobe Suite"],
         demoUrl: "https://www.behance.net/karlovaana",
     },
@@ -74,7 +77,7 @@ export const ProjectsSection = () => {
               {/* Image */}
               <div className="relative overflow-hidden aspect-video">
                 <img
-                  src="/projects/Behance.png"
+                  src={behance}
                   alt="Behance"
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                 />
@@ -163,7 +166,7 @@ export const ProjectsSection = () => {
               {/* Image */}
               <div className="relative overflow-hidden aspect-video">
                 <img
-                  src="/projects/RS.png"
+                  src={rakuten}
                   alt="Rakuten Mobile / Symphony"
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                 />
@@ -242,7 +245,7 @@ export const ProjectsSection = () => {
               {/* Image */}
               <div className="relative overflow-hidden aspect-video">
                 <img
-                  src="/projects/WCA.png"
+                  src={wca}
                   alt="Woven by Toyota"
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                 />
@@ -326,7 +329,7 @@ export const ProjectsSection = () => {
               {/* Image */}
               <div className="relative overflow-hidden aspect-video">
                 <img
-                  src="/projects/Wellna.png"
+                  src={wellna}
                   alt="Wellna Inc."
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                 />
