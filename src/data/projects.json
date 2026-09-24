@@ -1,0 +1,113 @@
+[
+  {
+    "slug": "personal-ui-explorations",
+    "cardImage": "projects/Behance.png",
+    "liveUrl": "https://www.behance.net/karlovaana",
+    "meta": "Behance",
+    "tags": [
+      "UI/UX design",
+      "User research",
+      "App design",
+      "HCD",
+      "Web design",
+      "Figma",
+      "Sketch",
+      "Adobe Suite"
+    ],
+    "caseTools": "Figma · Sketch · Adobe Suite",
+    "caseUrl": "https://www.behance.net/karlovaana",
+    "caseMedia": [
+      {
+        "src": "projects/behance-flow.png",
+        "ratio": "1.41"
+      },
+      {
+        "src": "projects/behance-screens.png",
+        "ratio": "1.41"
+      }
+    ]
+  },
+  {
+    "slug": "rakuten-symphony",
+    "cardImage": "projects/RS.png",
+    "liveUrl": "https://symphony.rakuten.com/",
+    "meta": "B2B platform",
+    "tags": [
+      "UI/UX design",
+      "Platform design",
+      "Web application",
+      "Figma",
+      "B2B",
+      "Design system"
+    ],
+    "caseTools": "Figma · Sketch · Adobe Suite",
+    "caseUrl": "https://symphony.rakuten.com/jp",
+    "caseMedia": [
+      {
+        "src": "projects/rakuten-flow.png",
+        "ratio": "2.12"
+      },
+      {
+        "src": "projects/rakuten-screens.png",
+        "ratio": "2.32"
+      }
+    ]
+  },
+  {
+    "slug": "woven-city-app",
+    "cardImage": "projects/WCA.png",
+    "liveUrl": "https://apps.apple.com/jp/app/woven-city-%E3%82%A2%E3%83%97%E3%83%AA/id6743425736",
+    "meta": "B2C / B2B",
+    "tags": [
+      "UI/UX design",
+      "App design",
+      "Web design",
+      "Figma",
+      "B2B",
+      "B2C",
+      "Web platform",
+      "Design system"
+    ],
+    "caseTools": "Figma · Sketch · Adobe Suite",
+    "caseUrl": "https://apps.apple.com/jp/app/woven-city-%E3%82%A2%E3%83%97%E3%83%AA/id6743425736",
+    "caseMedia": [
+      {
+        "src": "projects/woven-flow.png",
+        "ratio": "1.95"
+      },
+      {
+        "src": "projects/woven-screens.png",
+        "ratio": "1.95"
+      }
+    ]
+  },
+  {
+    "slug": "wellna-health-platform",
+    "cardImage": "projects/Wellna.png",
+    "liveUrl": "https://wellna.jp/ja",
+    "meta": "Health & wellness",
+    "tags": [
+      "UI/UX design",
+      "User research",
+      "App design",
+      "Web design",
+      "Figma",
+      "B2B",
+      "B2C",
+      "Web platform",
+      "MUI"
+    ],
+    "caseTools": "Figma · FigJam · Jira",
+    "caseUrl": "https://wellna.jp/ja",
+    "caseMedia": [
+      {
+        "src": "projects/wellna-flow.png",
+        "ratio": "2.06"
+      },
+      {
+        "src": "projects/wellna-screens.png",
+        "ratio": "1.74"
+      }
+    ]
+  }
+]

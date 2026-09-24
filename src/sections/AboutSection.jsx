@@ -1,88 +1,57 @@
-import "../i18next.js";
 import { useTranslation } from "react-i18next";
-import { Smartphone, User, Briefcase } from "lucide-react";
+import { useSectionLink } from "@/hooks/useSectionLink";
+import { CV_URL, asset } from "@/data/links";
 
+const HIGHLIGHTS = [
+  ["ui.hl1", "ui.hl1b"],
+  ["ui.hl2", "ui.hl2b"],
+  ["ui.hl3", "ui.hl3b"],
+];
 
-export const AboutSection = () => {
-    const { t} = useTranslation();
+export function AboutSection() {
+  const { t } = useTranslation();
+  const sectionLink = useSectionLink();
 
-    return  (
-        <section id="about" className="py-32 relative overflow-hidden">
-            <div className="container mx-auto px-6 relative z-10">
-                <div className="grid lg:grid-cols-2 gap-16 items-center">
-                    {/* Left column - About me */}
-                    <div className="space-y-8">
-                        <div className="animate-fade-in">
-                            <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase">
-                                {t("AboutSection")}
-                            </span>
-                        </div>
+  return (
+    <section id="about" className="section">
+      <div className="grid grid-cols-[repeat(auto-fit,minmax(min(100%,290px),1fr))] items-start gap-[52px]">
+        <div className="flex flex-col gap-4">
+          <span className="kicker">{t("ui.aboutKicker")}</span>
+          <div
+            className="aspect-[4/5] max-w-[380px] rounded-[24px] border border-line bg-card bg-cover bg-[center_30%]"
+            style={{ backgroundImage: `url(${asset("profile3.jpg")})` }}
+          />
+        </div>
 
-                        <h2 className="text-4xl md:text-5xl font-normal leading-tight animate-fade-in animation-delay-100 text-secondary-foreground">
-                        {t("AboutTitle1")}
-                            <span className="font-serif italic font-normal text-white">
-                                {" "}
-                                {t("AboutTitle2")}
-                            </span>
-                        </h2>
+        <div className="flex flex-col gap-[18px]">
+          <h2 className="m-0 max-w-[26ch] font-display text-[clamp(25px,3.1vw,42px)] font-semibold leading-[1.12] tracking-[-.03em]">
+            {t("ui.aboutSubtitle")}
+            <span className="text-accent">{t("ui.aboutSubtitle2")}</span>
+          </h2>
+          <p className="m-0 max-w-[60ch] text-base leading-[1.75] opacity-75">{t("ui.aboutP1")}</p>
+          <p className="m-0 max-w-[60ch] text-base leading-[1.75] opacity-75">{t("ui.aboutP2")}</p>
+          <p className="m-0 max-w-[60ch] text-base leading-[1.75] opacity-75">{t("ui.aboutP3")}</p>
+          <p className="quote mt-1.5 max-w-[60ch] text-[17px] leading-[1.65]">{t("ui.aboutMission")}</p>
 
-                        <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
-                            <p>
-                                {t("AboutBody1")}
-                            </p>
-                            <p>
-                                {t("AboutBody2")}
-                            </p>
-                            <p>
-                                {t("AboutBody3")}
-                            </p>
-                        </div>
+          <div className="mt-2 grid grid-cols-[repeat(auto-fit,minmax(min(100%,180px),1fr))] gap-3.5">
+            {HIGHLIGHTS.map(([title, body]) => (
+              <div key={title} className="flex flex-col gap-2 rounded-[18px] border border-line bg-card p-5">
+                <span className="text-[15px] font-medium">{t(title)}</span>
+                <span className="text-sm leading-[1.6] opacity-[.72]">{t(body)}</span>
+              </div>
+            ))}
+          </div>
 
-                        <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
-                            <p className="text-lg font-medium italic text-foreground">
-                                "{t("AboutMission")}"
-                            </p>
-                        </div>
-                    </div>
-
-                    {/* Right Column - Highlights */}
-                    <div className="grid grid-cols-1 gap-6">
-                        <div className="glass p-6 rounded-2xl animate-fade-in animation-delay-100">
-                            <div className="flex items-start gap-4">
-                                <div className="p-3 rounded-full bg-primary/10">
-                                    <User className="h-6 w-6 text-primary"/>
-                                </div>
-                                <div className="text-left">
-                                    <h4 className="font-semibold text-lg">{t("HighlightTitle1")}</h4>
-                                    <p className="text-muted-foreground">{t("HighlightBody1")}</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="glass p-6 rounded-2xl animate-fade-in animation-delay-300">
-                            <div className="flex items-start gap-4">
-                                <div className="p-3 rounded-full bg-primary/10">
-                                    <Smartphone className="h-6 w-6 text-primary"/>
-                                </div>
-                                <div className="text-left">
-                                    <h4 className="font-semibold text-lg">{t("HighlightTitle2")}</h4>
-                                    <p className="text-muted-foreground">{t("HighlightBody2")}</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="glass p-6 rounded-2xl animate-fade-in animation-delay-500">
-                            <div className="flex items-start gap-4">
-                                <div className="p-3 rounded-full bg-primary/10">
-                                    <Briefcase className="h-6 w-6 text-primary"/>
-                                </div>
-                                <div className="text-left">
-                                    <h4 className="font-semibold text-lg">{t("HighlightTitle3")}</h4>
-                                    <p className="text-muted-foreground">{t("HighlightBody3")}</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    );
-};
+          <div className="flex flex-wrap gap-3 pt-2.5">
+            <a href="#contact" onClick={sectionLink("contact")} className="btn btn-primary">
+              {t("ui.aboutBtn1")}
+            </a>
+            <a href={CV_URL} target="_blank" rel="noopener" className="btn btn-secondary">
+              {t("ui.aboutBtn2")}
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}

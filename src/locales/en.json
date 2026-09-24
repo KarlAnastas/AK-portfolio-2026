@@ -1,0 +1,320 @@
+{
+ "ui": {
+  "name": "Anastasiia Karlova",
+  "navWork": "Work",
+  "navAbout": "About",
+  "navSkills": "Skills",
+  "navExp": "Experience",
+  "navCta": "Contact me",
+  "badge": "UI/UX Designer — available for work",
+  "h1a": "Making ",
+  "h1b": "interfaces ",
+  "h1c": "behave.",
+  "lede": "Hello there! I'm Anastasiia, a Russian UI/UX Designer based in Tokyo, Japan.",
+  "lede2": "I design digital products that make sense without instructions-balancing user needs, business goals, and a healthy respect for people’s time. My job is to ask the awkward questions early, so users don’t have to later.",
+  "downloadCV": "Download CV",
+  "ctaWork": "View my work",
+  "stat1": "5+ years exp.",
+  "stat2": "Mobile, web & B2B platforms",
+  "stat3": "Tokyo, Japan",
+  "workKicker": "Featured work",
+  "workTitle": "Work, ",
+  "workTitle2": "with a point",
+  "workHint": "Click a project for details",
+  "workIntro": "A curated selection of my recent UI/UX work - from complex web applications to thoughtfully designed tools that solve real-world problems.",
+  "aboutKicker": "About me",
+  "aboutSubtitle": "The Serious Part ",
+  "aboutSubtitle2": "(Briefly)",
+  "aboutP1": "I’m a UI/UX designer driven by a deep passion for understanding users - their needs, behaviors, and motivations - and turning those insights into clean, modern design.",
+  "aboutP2": "My experience spans large-scale redesigns, intuitive mobile and desktop applications, user research, website creation, and close collaboration with Agile product teams to support iterative improvements.",
+  "aboutP3": "Alongside technical expertise, I bring essential soft skills such as empathy, communication, time management, analytical thinking, and adaptability, enabling me to thrive both collaboratively and independently.",
+  "aboutMission": "My mission is to create digital experiences that are clear, thoughtful, and quietly reliable. Good design should not draw attention to itself - it should just work.",
+  "hl1": "User Experience",
+  "hl1b": "Designing intuitive user interfaces and seamless user experiences.",
+  "hl2": "User Interface",
+  "hl2b": "Designing responsive websites and web applications with modern tools.",
+  "hl3": "Project Management",
+  "hl3b": "Leading projects from conception to completion with agile methodologies.",
+  "expKicker": "Career journey",
+  "expTitle": "Years, ",
+  "expTitle2": "not just pixels.",
+  "expIntro": "A timeline of my growth as a UI/UX designer - from asking too many questions to designing systems, leading design decisions, and shipping products that scale.",
+  "aboutBtn1": "Get in touch",
+  "aboutBtn2": "Download CV",
+  "capPortrait": "portrait",
+  "capMore": "add project shot",
+  "skillsTitle": "Technologies I work with",
+  "catAll": "All",
+  "catDesign": "Design",
+  "catTools": "Tools",
+  "catFrontend": "Frontend",
+  "contactH": "Get in touch",
+  "contactP": "Have a project in mind or want to collaborate? Feel free to reach out. I'm always open to discussing new opportunities.",
+  "contactBtn": "Send an email",
+  "labelEmail": "Email",
+  "labelPhone": "Phone",
+  "labelLocation": "Location",
+  "labelBehance": "Behance",
+  "location": "Tokyo, Japan",
+  "footer": "© 2026 Anastasiia Karlova",
+  "backAll": "All projects",
+  "visitLive": "Visit live site",
+  "nextCase": "Next project",
+  "detailCtaH": "Interested in working together?",
+  "detailCtaP": "Open to new projects and collaborations.",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+  "notFoundTitle": "Page not found",
+  "notFoundBody": "The page you're looking for doesn't exist or may have moved.",
+  "notFoundCta": "Back home"
+ },
+ "caseLabels": {
+  "role": "Role",
+  "tools": "Tools",
+  "scope": "Scope",
+  "visit": "Visit page",
+  "problem": "Problem",
+  "process": "Process",
+  "results": "Results"
+ },
+ "projects": [
+  {
+   "title": "Personal designs",
+   "description": "A collection of my personal or unpublished projects that show my skills when restricted by NDAs."
+  },
+  {
+   "title": "Rakuten Mobile / Symphony",
+   "description": "A B2B platform that brought together a variety of products designed to help businesses maintain, automate, and streamline their workflows."
+  },
+  {
+   "title": "Woven by Toyota",
+   "description": "Variety of projects and products, both B2C and B2B. Most recently released is the Woven City App."
+  },
+  {
+   "title": "Wellna Inc.",
+   "description": "A wellness and health company focused on fertility, offering a range of products. I have been involved since the company’s founding and have designed multiple products."
+  }
+ ],
+ "cases": [
+  {
+   "role": "UI/UX Designer",
+   "scope": "Personal case studies & UI explorations",
+   "problem": [
+    "As a designer, my portfolio is my primary professional tool. Working in a corporate environment makes it difficult to showcase visual work due to NDAs and internal restrictions, which limits opportunities for future job searching.",
+    "Additionally, corporate work can feel isolating. While internal collaboration is frequent, there is limited exposure to the global design community, reducing opportunities for feedback, visibility, and professional growth."
+   ],
+   "process": [
+    {
+     "h": "Defining what to show",
+     "body": "Deciding what to showcase - and how to communicate my skills - was the biggest challenge. I conducted extensive research across multiple creative platforms to understand expectations and best practices. Building the first case study took nearly three months, but it helped me define clear goals and focus on the most relevant parts of my experience. Once this foundation was set, the rest of the work progressed much faster."
+    },
+    {
+     "h": "Figma to the rescue",
+     "body": "Beyond general inspiration, I relied heavily on the Figma Community for real-world examples, references, and structure guidance. Reviewing other designers’ personal portfolios also helped me benchmark the level of visual quality and storytelling I wanted to achieve, shaping both layout and presentation decisions."
+    }
+   ],
+   "captions": [
+    "Gulag App creative project",
+    "Poetry App UI kit"
+   ],
+   "results": [
+    "Learned how to clearly present my professional skills and personal value as a designer.",
+    "Received valuable feedback from the design community and attracted new project opportunities."
+   ]
+  },
+  {
+   "role": "UI Designer / UX Planner",
+   "scope": "B2B cloud platform, 60+ products",
+   "problem": [
+    "Designing complex telecom and platform products requires balancing scalability, usability, and speed across multiple teams and markets. Misaligned requirements or unclear user flows can slow delivery and reduce product clarity.",
+    "In a fast-moving, global organization, UX decisions must be well-documented and easily shared to ensure consistency and collaboration across design, product, and engineering teams."
+   ],
+   "process": [
+    {
+     "h": "Understanding users and system complexity",
+     "body": "I worked closely with product managers and cross-functional teams to clarify requirements and identify key user needs. Through research, stakeholder discussions, and journey mapping, I focused on translating complex system logic into clear user flows that could scale across products and regions."
+    },
+    {
+     "h": "Structuring clarity through UX and UI",
+     "body": "I created Lo-, Mid-, and Hi-Fi wireframes in Figma, ensuring usability, consistency, and feasibility for development. By documenting UX decisions and aligning closely with engineers, I helped streamline handoff and reduce friction between design and implementation."
+    }
+   ],
+   "captions": [
+    "Rakuten Symphony Home Page",
+    "Rakuten Symphony Products"
+   ],
+   "results": [
+    "Improved clarity and usability of user flows, helping teams move faster without sacrificing quality.",
+    "Strengthened collaboration between design, product, and engineering through structured UX documentation and clear design communication."
+   ]
+  },
+  {
+   "role": "Product UI Designer",
+   "scope": "B2C & B2B, city platform and app",
+   "problem": [
+    "Woven City aims to pioneer a new era of mobility and living by weaving together people, infrastructure, and technology in a real-world environment. However, creating seamless interactions between physical city life, digital services, and experimental mobility products introduces complexity in user needs and ecosystem design.",
+    "To realize a “living laboratory” where residents (“Weavers”) and innovators (“Inventors”) co-create future technologies, the digital platform must bridge physical lifestyle, community collaboration, and real-time activities - all while ensuring usability, accessibility, and clarity for diverse user types."
+   ],
+   "process": [
+    {
+     "h": "Empathizing with Weavers and Inventors",
+     "body": "I began by understanding the distinct contexts of both Woven City residents (Weavers) and collaborators (Inventors). By reviewing product goals, community dynamics, and platform requirements - including real-world participation and the Woven City app’s invitation-only features - I mapped user journeys to surface core needs around communication, engagement, and daily life support. Through stakeholder interviews and analysis of the app’s initial live usage, I identified key interaction moments where users needed clarity: onboarding to community features, discovering local events and projects, and managing everyday essentials within a digitally connected city."
+    },
+    {
+     "h": "Unifying city life and collaboration in a single flow",
+     "body": "Using Figma, I designed wireframes and interactive prototypes with a strong focus on clarity, usability, and scalability. The interface structure was refined to reduce cognitive load and help users easily navigate between daily life features, community interactions, and collaborative activities. I paid close attention to visual hierarchy, feedback states, and accessibility to ensure the experience felt intuitive for a diverse set of users. Throughout the process, I worked closely with product owners and engineers to validate design decisions, ensure technical feasibility, and enable a smooth handoff from design to development."
+    }
+   ],
+   "captions": [
+    "Woven City Home Page",
+    "Woven City App"
+   ],
+   "results": [
+    "Increased clarity and cohesion across the application’s core user journeys - enabling residents and innovators to engage meaningfully with Woven City’s ecosystem.",
+    "Improved onboarding, discovery, and participation flows that supported early community formation and real-world co-creation across digital and physical city layers."
+   ]
+  },
+  {
+   "role": "Lead UI Designer",
+   "scope": "Health platform, built from zero",
+   "problem": [
+    "Wellna was built from the ground up as a digital health platform, with no existing product, interface, or design system. The challenge was to define a clear, trustworthy user experience for health management starting from a blank slate.",
+    "As a health-focused product, the interface needed to balance emotional reassurance, accessibility, and visual clarity while supporting complex data and long-term user engagement."
+   ],
+   "process": [
+    {
+     "h": "Defining the product from zero",
+     "body": "From the earliest stages, I worked closely with founders, product stakeholders, and health experts to shape the product vision and user experience. With no existing interface or flows, I helped define core user scenarios, value propositions, and success criteria. Through early research, hypothesis building, and journey mapping, we aligned on how users would onboard, track their health, and understand progress within the product."
+    },
+    {
+     "h": "Building the UI foundation and scaling it",
+     "body": "Using Figma, I designed the product interface from the ground up, starting with core screens and interaction patterns and gradually expanding into a full visual system. I established typography, color, layout principles, and component structures to ensure clarity, accessibility, and long-term scalability. As the product evolved, I iterated on wireframes and high-fidelity designs, refined onboarding and tracking flows, and collaborated closely with engineers to ensure accurate implementation. This approach allowed the product to grow consistently without design fragmentation."
+    }
+   ],
+   "captions": [],
+   "results": [
+    "Successfully launched a fully functional health platform designed from zero, with a cohesive and scalable UI system.",
+    "Created a strong visual and interaction foundation that supported future feature expansion and positioned the product for long-term growth."
+   ]
+  }
+ ],
+ "experience": [
+  {
+   "period": "Jun 2026 - Present",
+   "role": "Senior Experience Designer",
+   "company": "AKQA UKA",
+   "desc": "Design and lead user-centered solutions for digital products. Conduct research, create prototypes, and collaborate across teams to translate user needs into strategy and deliverables."
+  },
+  {
+   "period": "Jun 2022 - Present",
+   "role": "Lead UI Designer",
+   "company": "Wellna Inc.",
+   "desc": "Researching, creating, and managing multiple digital products, like a corporate website and a native app."
+  },
+  {
+   "period": "Aug 2023 - May 2026",
+   "role": "UI Designer",
+   "company": "Woven by Toyota",
+   "desc": "Creating various product interfaces: web, native apps, LPs, platforms, etc."
+  },
+  {
+   "period": "Feb 2022 - Jul 2023",
+   "role": "UI Designer / UX Planner",
+   "company": "Rakuten Mobile / Symphony",
+   "desc": "Worked on a B2B cloud platform with 60+ products. Improved UX through detailed work with PMs, engineers, and users."
+  },
+  {
+   "period": "May 2018 - Jan 2022",
+   "role": "Web Developer / Web Designer / UI Designer",
+   "company": "EBA Corp.",
+   "desc": "Worked on multiple projects in different roles. Maintained focus on each role and contributed to the projects' development."
+  }
+ ],
+ "skills": [
+  {
+   "category": "design",
+   "level": 90,
+   "name": "Human centered design"
+  },
+  {
+   "category": "design",
+   "level": 70,
+   "name": "User research"
+  },
+  {
+   "category": "design",
+   "level": 80,
+   "name": "Interaction design"
+  },
+  {
+   "category": "design",
+   "level": 90,
+   "name": "Responsive design"
+  },
+  {
+   "category": "design",
+   "level": 70,
+   "name": "Typography"
+  },
+  {
+   "category": "design",
+   "level": 90,
+   "name": "Wireframing/Prototyping"
+  },
+  {
+   "category": "design",
+   "level": 80,
+   "name": "Design system management"
+  },
+  {
+   "category": "tools",
+   "level": 60,
+   "name": "Adobe Suite"
+  },
+  {
+   "category": "tools",
+   "level": 90,
+   "name": "Figma"
+  },
+  {
+   "category": "tools",
+   "level": 50,
+   "name": "Sketch"
+  },
+  {
+   "category": "tools",
+   "level": 50,
+   "name": "InVision"
+  },
+  {
+   "category": "tools",
+   "level": 50,
+   "name": "Miro"
+  },
+  {
+   "category": "tools",
+   "level": 90,
+   "name": "Material Design"
+  },
+  {
+   "category": "tools",
+   "level": 70,
+   "name": "iOS HIG"
+  },
+  {
+   "category": "frontend",
+   "level": 70,
+   "name": "HTML/CSS"
+  },
+  {
+   "category": "frontend",
+   "level": 50,
+   "name": "Sass/Less"
+  },
+  {
+   "category": "frontend",
+   "level": 20,
+   "name": "Javascript"
+  }
+ ]
+}
